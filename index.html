@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Challenge</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <main class="main">
+    <form class="main__form form" id="form">
+      <div class="form__div">
+        <label for="name" class="form__label">Nombre:</label>
+        <input class="form__input" type="text" name="name" id="name">
+      </div>
+      <div class="form__div">
+        <label for="surname" class="form__label">Apellido:</label>
+        <input class="form__input" type="text" name="surname" id="surname">
+      </div>
+      <div class="form__div">
+        <label for="group" class="form__label">Grupo:</label>
+        <input class="form__input" type="number" name="group" id="group">
+      </div>
+      <div class="form__div">
+        <label for="room" class="form__label">Sala:</label>
+        <input class="form__input" type="number" name="room" id="room">
+      </div>
+      <button class="form__button" id="reset" type="reset">Reset</button>
+      <button class="form__button" id="delete" type="button">Delete All</button>
+      <button class="form__button" id="submit" type="submit">Submit</button>
+    </form>
+
+    <section>
+      <h2>Lista</h2>
+      <ul class="section__ul" id="list">
+      </ul>
+    </section>
+  </main>
+  
+  <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
